@@ -37,4 +37,4 @@
 # Soon<sup>TM</sup>
 
 * [ ] Tests?
-* [ ] Consider ethics <span style="display: none">Haha no</span>
+* [ ] Consider ethics
