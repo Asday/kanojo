@@ -65,7 +65,7 @@ const exampleState = {
     {
       title: 'Boku no Hero Academia',
       coverURL: 'https://example.com/image.jpg',
-      URL: 'https://example.com/hero_aca/',
+      URL: 'https://example.com/hero_aca/',  // Used as a primary key, kinda.
     },
     // ...
   ],
