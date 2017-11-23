@@ -57,16 +57,16 @@ export const listing = combineReducers({
   items,
 })
 
-// {
-//   isLoading: false,
-//   isAnyLoaded: true,
-//   isErrored: false,
-//   items: [
-//     {
-//       title: 'Boku no Hero Academia',
-//       coverURL: 'https://example.com/image.jpg',
-//       URL: 'https://example.com/hero_aca/',
-//     },
-//     ...
-//   ],
-// }
+const exampleState = {
+  isLoading: false,
+  isAnyLoaded: true,
+  isErrored: false,
+  items: [
+    {
+      title: 'Boku no Hero Academia',
+      coverURL: 'https://example.com/image.jpg',
+      URL: 'https://example.com/hero_aca/',
+    },
+    // ...
+  ],
+}
