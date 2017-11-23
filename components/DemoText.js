@@ -3,7 +3,7 @@ import { Text, View } from 'react-native'
 
 import { styles } from '../styles/DemoText'
 
-export default class App extends React.Component {
+export default class DemoText extends React.Component {
   render = () => {
     return (
       <View style={styles.container}>
