@@ -9,6 +9,7 @@
       * [ ] Pick data to show for pages
   * [ ] Implement app interface skeleton
     * [ ] Implement Splash screen skeleton
+      * [ ] Design state for manga listing
     * [ ] Implement Browse screen skeleton
     * [ ] Implement Reader screen skeleton
     * [ ] Implement Navigation screen skeleton
@@ -16,7 +17,6 @@
     * [ ] Implement Browse screen
       * [ ] Search manga
       * [ ] List manga
-        * [ ] Design state for manga listing
         * [ ] Crawl sites
           * [ ] Write crawler for mangafox
           * [ ] Research other potential sites
