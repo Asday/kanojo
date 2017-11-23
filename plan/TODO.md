@@ -9,10 +9,10 @@
       * [ ] Pick data to show for pages
   * [ ] Implement app interface skeleton
     * [ ] Implement Splash screen skeleton
-      * [ ] Design state for manga listing
-        * [ ] Implement state management
+      * [x] Design state for manga listing
+        * [x] Implement state management
           * [x] Implement state storage
-          * [ ] Implement state manipulation
+          * [x] Implement state manipulation
     * [ ] Implement Browse screen skeleton
     * [ ] Implement Reader screen skeleton
     * [ ] Implement Navigation screen skeleton
@@ -34,6 +34,7 @@
 # 2.0.0
 
 * [ ] Bookmarks
+* [ ] Navigation by chapters and volumes 'n' tha'
 * [ ] Offline viewing
 * [ ] Settings
 
