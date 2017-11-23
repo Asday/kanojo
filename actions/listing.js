@@ -1,4 +1,4 @@
-import { slice } from 'lodash';
+import { head, tail } from 'lodash';
 
 export const READ = 'listings/READ'
 export const read = ({ URL, title, coverURL }) => ({
@@ -59,7 +59,7 @@ export const loadListingsPage = (pageURL, nextPageURLs) => (dispatch) => {
       })
 
       if (!!nextPageURLS.length) {
-        dispatch(loadListingsPage(nextPageURLs[0], slice(nextPageURLs, 1))
+        dispatch(loadListingsPage(head(nextPageURLs), tail(nextPageURLs))
       }
     })
     .catch((error) => {
