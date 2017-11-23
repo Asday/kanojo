@@ -1,3 +1,5 @@
+import { slice } from 'lodash';
+
 export const REQ_LOAD_LISTINGS = 'listings/REQ_LOAD_LISTINGS'
 export const REQ_LOAD_LISTINGS_SUCCESS = 'listings/REQ_LOAD_LISTINGS_SUCCESS'
 export const REQ_LOAD_LISTINGS_FAILURE = 'listings/REQ_LOAD_LISTINGS_FAILURE'
@@ -6,6 +8,10 @@ export const loadListings = () => (dispatch) => {
     type: REQ_LOAD_LISTINGS,
     payload: {},
   })
+
+  // TODO:  Fetch the directory page.
+  // TODO:  Parse how many pages there are.
+  // TODO:  Build a list of URLs to fetch, one per page.
 
   fetch('https://example.com')
     .then((data) => {
@@ -26,19 +32,25 @@ export const REQ_LOAD_LISTINGS_PAGE_SUCCESS =
   'listings/REQ_LOAD_LISTINGS_PAGE_SUCCESS'
 export const REQ_LOAD_LISTINGS_PAGE_FAILURE =
   'listings/REQ_LOAD_LISTINGS_PAGE_FAILURE'
-export const loadListingsPage = (pageURL) => (dispatch) => {
+export const loadListingsPage = (pageURL, nextPageURLs) => (dispatch) => {
   dispatch({
     type: REQ_LOAD_LISTINGS_PAGE,
-    payload: {},
+    payload: {
+      pageURL,
+    },
   })
 
   fetch(pageURL)
     .then((data) => {
-      // Parse `data` into [{title: '', coverURL: '', URL: ''}].
+      // TODO:  Parse `data` into [{title: '', coverURL: '', URL: ''}].
       dispatch({
         type: REQ_LOAD_LISTINGS_PAGE_SUCCESS,
         payload: data,
       })
+
+      if (!!nextPageURLS.length) {
+        dispatch(loadListingsPage(nextPageURLs[0], slice(nextPageURLs, 1))
+      }
     })
     .catch((error) => {
       dispatch({
