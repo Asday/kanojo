@@ -11,10 +11,10 @@ export const navigateToPreviousPage = () => ({
 })
 
 export const NAVIGATE_TO_PAGE = 'reader/NAVIGATE_TO_PAGE'
-export const navigateToPage = (pageNumber) => ({
+export const navigateToPage = ({ index }) => ({
   type: NAVIGATE_TO_PAGE,
   payload: {
-    pageNumber,
+    index,
   },
 })
 
