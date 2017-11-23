@@ -59,7 +59,7 @@ export const loadListingsPage = (pageURL, nextPageURLs) => (dispatch) => {
       })
 
       if (!!nextPageURLS.length) {
-        dispatch(loadListingsPage(head(nextPageURLs), tail(nextPageURLs))
+        dispatch(loadListingsPage(head(nextPageURLs), tail(nextPageURLs)))
       }
     })
     .catch((error) => {
