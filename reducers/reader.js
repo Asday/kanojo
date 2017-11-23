@@ -1,7 +1,7 @@
 const exampleState = {
   URL: 'https://example.com/hero_aca/',
   currentPage: 0,
-  pageDataLoading: false,
+  isPageDataLoading: false,
   pages: [
     {
       index: 0,
