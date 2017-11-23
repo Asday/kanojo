@@ -52,7 +52,7 @@
 
 * Page listing, scrollable
 
-Details are fuzzy.  More will become apparent after a little crawling and scraping work is donw.
+Details are fuzzy.  More will become apparent after a little crawling and scraping work is done.
 
 ### Actions
 
