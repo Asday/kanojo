@@ -3,11 +3,11 @@ import { Text, View } from 'react-native'
 
 import { styles } from '../styles/DemoText'
 
-export default class DemoText extends React.Component {
+export default class DemoText2 extends React.Component {
   render = () => {
     return (
       <View style={styles.container}>
-        <Text>Semicolons are for nerds.</Text>
+        <Text>More demo text is also for nerds.</Text>
       </View>
     )
   }
