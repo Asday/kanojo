@@ -1,5 +1,15 @@
 import { slice } from 'lodash';
 
+export const READ = 'listings/READ'
+export const read = ({ URL, title, coverURL }) => ({
+  type: READ,
+  payload: {
+    URL,
+    title,
+    coverURL,
+  }
+})
+
 export const REQ_LOAD_LISTINGS = 'listings/REQ_LOAD_LISTINGS'
 export const REQ_LOAD_LISTINGS_SUCCESS = 'listings/REQ_LOAD_LISTINGS_SUCCESS'
 export const REQ_LOAD_LISTINGS_FAILURE = 'listings/REQ_LOAD_LISTINGS_FAILURE'
