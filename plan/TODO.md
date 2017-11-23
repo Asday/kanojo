@@ -10,6 +10,9 @@
   * [ ] Implement app interface skeleton
     * [ ] Implement Splash screen skeleton
       * [ ] Design state for manga listing
+        * [ ] Implement state management
+          * [x] Implement state storage
+          * [ ] Implement state manipulation
     * [ ] Implement Browse screen skeleton
     * [ ] Implement Reader screen skeleton
     * [ ] Implement Navigation screen skeleton
