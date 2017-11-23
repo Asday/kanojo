@@ -4,6 +4,7 @@ const exampleState = {
   pageDataLoading: false,
   pages: [
     {
+      index: 0,
       imageURL: 'https://example.com/image.jpg',
       imageData: '',  // b64 encoded image?
       loading: false,
