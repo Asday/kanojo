@@ -22,19 +22,6 @@ export const loadListings = () => (dispatch) => {
   // TODO:  Fetch the directory page.
   // TODO:  Parse how many pages there are.
   // TODO:  Build a list of URLs to fetch, one per page.
-
-  fetch('https://example.com')
-    .then((data) => {
-      dispatch(loadListingsPage(data))
-    })
-    .catch((error) => {
-      dispatch({
-        type: REQ_LOAD_LISTINGS_FAILURE,
-        payload: {
-          error,
-        },
-      })
-    })
 }
 
 export const REQ_LOAD_LISTINGS_PAGE = 'listings/REQ_LOAD_LISTINGS_PAGE'
