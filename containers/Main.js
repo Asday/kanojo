@@ -1,8 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux';
 
-import DemoText from '../components/DemoText'
-import DemoText2 from '../components/DemoText2'
+import ListingScreen from '../containers/ListingScreen'
+import Splash from '../components/Splash'
 import { isLoadingSelector } from '../selectors/listing'
 
 const select = (state) => ({
@@ -16,7 +16,7 @@ export class Main extends React.Component {
     } = this.props
 
     return (
-      isLoading ? <DemoText /> : <DemoText2 />
+      isLoading ? <Splash /> : <ListingScreen />
     )
   }
 }
