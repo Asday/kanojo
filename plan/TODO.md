@@ -9,6 +9,7 @@
       * [ ] Pick data to show for pages
   * [ ] Implement app interface skeleton
     * [ ] Implement Splash screen skeleton
+      * [ ] Align the splash image properly
       * [x] Design state for manga listing
         * [x] Implement state management
           * [x] Implement state storage
