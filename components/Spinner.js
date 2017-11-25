@@ -1,5 +1,10 @@
 import React from 'react'
+import { Text } from 'react-native'
 
 export default class Spinner extends React.Component {
-  render = () => null
+  render = () => (
+    <Text>
+      I am a spinner.  Stuff is still loading.
+    </Text>
+  )
 }
