@@ -6,3 +6,8 @@ export const isLoadingSelector = createSelector(
   listingSelector,
   (listing) => listing.isLoading
 )
+
+export const isAnyLoadedSelector = createSelector(
+  listingSelector,
+  (listing) => listing.isAnyLoaded
+)
