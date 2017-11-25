@@ -1,7 +1,5 @@
 import React from 'react'
-import { Image } from 'react-native'
-
-import { styles } from '../styles/Splash'
+import { Image, StyleSheet } from 'react-native'
 
 export default class Splash extends React.Component {
   render = () => (
@@ -11,3 +9,12 @@ export default class Splash extends React.Component {
     />
   )
 }
+
+const styles = StyleSheet.create({
+  // TODO:  Align image top.
+  image: {
+    flex: 1,
+    width: null,
+    height: null,
+  },
+})
