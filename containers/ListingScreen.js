@@ -1,5 +1,5 @@
 import React from 'react'
-import { View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import { connect } from 'react-redux'
 
 import Search from '../components/Search'
@@ -18,13 +18,19 @@ export class ListingScreen extends React.Component {
     } = this.props
 
     return (
-      <View>
+      <View style={ styles.view } >
         <Search />
-        <Listing />
-        { isLoading && <Spinner />}
+        <Listing style={ styles.listing } />
+        { isLoading && <Spinner style={ styles.spinner } />}
       </View>
     )
   }
 }
 
 export default connect(select)(ListingScreen)
+
+const styles = StyleSheet.create({
+  view: {
+    flex: 1,
+  },
+})
