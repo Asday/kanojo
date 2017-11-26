@@ -15,6 +15,13 @@
           * [x] Implement state storage
           * [x] Implement state manipulation
     * [ ] Implement Browse screen skeleton
+      * [ ] Go to the reader screen on manga tap
+        * [ ] Get react native navigator or whatever it is wound up
+        * [ ] Render tiles for manga
+      * [x] Lay out Browse screen skeleton
+        * [x] Create search box component skeleton
+        * [x] Create listings component skeleton
+        * [x] Create spinner component skeleton
     * [ ] Implement Reader screen skeleton
     * [ ] Implement Navigation screen skeleton
   * [ ] Implement Splash screen
