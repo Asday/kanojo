@@ -38,6 +38,7 @@
       * [ ] Swipe to change pages
       * [ ] Zooming and panning
   * [ ] Implement Navigation screen
+  * [ ] Styling pass (ugh)
 
 # 2.0.0
 
