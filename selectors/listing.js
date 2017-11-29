@@ -11,3 +11,8 @@ export const isAnyLoadedSelector = createSelector(
   listingSelector,
   (listing) => listing.isAnyLoaded
 )
+
+export const itemsSelector = createSelector(
+  listingSelector,
+  (listing) => listing.items
+)

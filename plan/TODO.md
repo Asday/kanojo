@@ -17,7 +17,7 @@
     * [ ] Implement Browse screen skeleton
       * [ ] Go to the reader screen on manga tap
         * [ ] Get react native navigator or whatever it is wound up
-        * [ ] Render tiles for manga
+        * [x] Render tiles for manga
       * [x] Lay out Browse screen skeleton
         * [x] Create search box component skeleton
         * [x] Create listings component skeleton

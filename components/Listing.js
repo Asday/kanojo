@@ -1,14 +1,25 @@
+import { map } from 'lodash'
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
+import ItemPanel from './ItemPanel'
+
 export default class Listing extends React.Component {
-  render = () => (
-    <View style={ styles.view }>
-      <Text>
-        Listing goes here.
-      </Text>
-    </View>
-  )
+  render = () => {
+    const {
+      items,
+    } = this.props;
+
+    return (
+      <View style={ styles.view }>
+        {
+          map(items, (item, key) => (
+            <ItemPanel item={ item } key={ key } />
+          ))
+        }
+      </View>
+    )
+  }
 }
 
 const styles = StyleSheet.create({
