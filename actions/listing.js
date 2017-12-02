@@ -1,4 +1,4 @@
-import { head, tail } from 'lodash';
+import { head, tail } from 'lodash'
 
 export const READ = 'listings/READ'
 export const read = ({ URL, title, coverURL }) => ({

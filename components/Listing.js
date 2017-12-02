@@ -8,7 +8,7 @@ export default class Listing extends React.Component {
   render = () => {
     const {
       items,
-    } = this.props;
+    } = this.props
 
     return (
       <View style={ styles.view }>

@@ -1,4 +1,4 @@
-import { unionBy } from 'lodash';
+import { unionBy } from 'lodash'
 import { combineReducers } from 'redux'
 
 import {
