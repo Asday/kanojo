@@ -13,8 +13,8 @@
         * [x] Implement state management
           * [x] Implement state storage
           * [x] Implement state manipulation
-    * [ ] Implement Browse screen skeleton
-      * [ ] ScrollView, dumbass
+    * [x] Implement Browse screen skeleton
+      * [x] ScrollView, dumbass
       * [x] Go to the reader screen on manga tap
         * [x] Get react native navigator or whatever it is wound up
         * [x] Render tiles for manga
@@ -42,6 +42,9 @@
     * [ ] Align the splash image properly
     * [ ] Move stuff inside the status bar
     * [ ] Remove headers from screens
+    * [ ] Automatically set column count on listing screen
+    * [ ] Have gaps between columns on listing screen
+    * [ ] Show loading spinner on top of stuff
 
 # 2.0.0
 
