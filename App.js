@@ -4,7 +4,7 @@ import { applyMiddleware, createStore } from 'redux'
 import thunk from 'redux-thunk'
 
 import { loadListings } from './actions/listing'
-import Main from './containers/Main'
+import Navigation from './containers/Navigation'
 import { root } from './reducers'
 
 const store = createStore(root, applyMiddleware(thunk))
@@ -14,7 +14,7 @@ export default class App extends React.Component {
   render() {
     return (
       <Provider store={ store }>
-        <Main />
+        <Navigation />
       </Provider>
     )
   }

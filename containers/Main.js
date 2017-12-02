@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-import ListingScreen from '../containers/ListingScreen'
+import ListingScreen from './ListingScreen'
 import Splash from '../components/Splash'
 import { isAnyLoadedSelector } from '../selectors/listing'
 
