@@ -8,15 +8,15 @@
     * [ ] Design Navigation screen
       * [ ] Pick data to show for pages
   * [ ] Implement app interface skeleton
-    * [ ] Implement Splash screen skeleton
-      * [ ] Align the splash image properly
+    * [x] Implement Splash screen skeleton
       * [x] Design state for manga listing
         * [x] Implement state management
           * [x] Implement state storage
           * [x] Implement state manipulation
     * [ ] Implement Browse screen skeleton
-      * [ ] Go to the reader screen on manga tap
-        * [ ] Get react native navigator or whatever it is wound up
+      * [ ] ScrollView, dumbass
+      * [x] Go to the reader screen on manga tap
+        * [x] Get react native navigator or whatever it is wound up
         * [x] Render tiles for manga
       * [x] Lay out Browse screen skeleton
         * [x] Create search box component skeleton
@@ -39,6 +39,9 @@
       * [ ] Zooming and panning
   * [ ] Implement Navigation screen
   * [ ] Styling pass (ugh)
+    * [ ] Align the splash image properly
+    * [ ] Move stuff inside the status bar
+    * [ ] Remove headers from screens
 
 # 2.0.0
 
