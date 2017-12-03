@@ -42,7 +42,7 @@
 * Tap page -> Hide menu
 * Double tap page -> Toggle zoom
 * Tap-hold page -> ?
-* Pull down on page -> Reveal menu
+* Swipe in from off left -> Reveal menu
 * Swipe left on page -> Previous page (or next?  Depending on something?)
 * Swipe right on page -> As above
 
