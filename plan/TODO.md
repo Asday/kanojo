@@ -23,6 +23,8 @@
         * [x] Create listings component skeleton
         * [x] Create spinner component skeleton
     * [ ] Implement Reader screen skeleton
+      * [ ] Show current page
+      * [ ] Open drawer to navigate pages
     * [ ] Implement Navigation screen skeleton
   * [ ] Implement Splash screen
     * [ ] Implement Browse screen
@@ -34,7 +36,7 @@
   * [ ] Implement Reader screen
     * [ ] Read manga
       * [ ] Download images ahead of time
-      * [ ] Unload images that are no longer needed
+      * [ ] Unload images that are no longer needed (???)
       * [ ] Swipe to change pages
       * [ ] Zooming and panning
   * [ ] Implement Navigation screen
@@ -44,6 +46,7 @@
     * [ ] Remove headers from screens
     * [ ] Automatically set column count on listing screen
     * [ ] Have gaps between columns on listing screen
+    * [ ] Have gaps between rows on listing screen
     * [ ] Show loading spinner on top of stuff
 
 # 2.0.0
