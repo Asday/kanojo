@@ -34,7 +34,7 @@ export class ItemPanel extends React.Component {
 
     return (
       <TouchableHighlight onPress={ this.clicked }>
-        <View>
+        <View style={ styles.view }>
           <Image style={ styles.image } source={ { uri: coverURL } } />
           <Text>{ title }</Text>
         </View>
@@ -50,5 +50,8 @@ const styles = StyleSheet.create({
     // TODO:  This sucks.
     width: 210,
     height: 297,
+  },
+  view: {
+    width: 210,
   },
 })
