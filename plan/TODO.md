@@ -26,6 +26,9 @@
       * [ ] Show current page
       * [ ] Open drawer to navigate pages
         * [ ] Show page list in drawer
+          * [ ] Implement drawer
+            * [ ] Close draw on back button press
+            * [x] Add DrawerNavigator
         * [ ] Tapping on a page navigates to page and closes drawer
   * [ ] Implement Splash screen
     * [ ] Implement Browse screen
