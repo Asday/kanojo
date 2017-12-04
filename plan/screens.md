@@ -29,8 +29,8 @@
 
 ### Components
 
-* Hidden menu up top
-  * One button, "navigation"
+* Side drawer menu
+  * Page listing, scrollable
 * Spinner while loading current page
   * Enhancement:  Set background as blurred out previous page/cover
 * Page image full screen
@@ -38,24 +38,11 @@
 ### Actions
 
 * Back button -> Browse screen
-* Tap menu/navigation button -> Navigation screen
 * Tap page -> Hide menu
 * Double tap page -> Toggle zoom
 * Tap-hold page -> ?
-* Swipe in from off left -> Reveal menu
+* Swipe in from off left -> Reveal navigation
 * Swipe left on page -> Previous page (or next?  Depending on something?)
 * Swipe right on page -> As above
-
-## Navigation
-
-### Components
-
-* Page listing, scrollable
-
-Details are fuzzy.  More will become apparent after a little crawling and scraping work is done.
-
-### Actions
-
-* Back button -> Reader screen
-* Tap on page -> Reader screen on selected page
-* Tap-hold on page -> ?
+* Tap on page in drawer -> Close drawer, Reader screen on selected page
+* Tap hold on page in drawer -> ?

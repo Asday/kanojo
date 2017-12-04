@@ -25,7 +25,8 @@
     * [ ] Implement Reader screen skeleton
       * [ ] Show current page
       * [ ] Open drawer to navigate pages
-    * [ ] Implement Navigation screen skeleton
+        * [ ] Show page list in drawer
+        * [ ] Tapping on a page navigates to page and closes drawer
   * [ ] Implement Splash screen
     * [ ] Implement Browse screen
       * [ ] Search manga
@@ -36,10 +37,8 @@
   * [ ] Implement Reader screen
     * [ ] Read manga
       * [ ] Download images ahead of time
-      * [ ] Unload images that are no longer needed (???)
       * [ ] Swipe to change pages
       * [ ] Zooming and panning
-  * [ ] Implement Navigation screen
   * [ ] Styling pass (ugh)
     * [ ] Align the splash image properly
     * [ ] Move stuff inside the status bar
