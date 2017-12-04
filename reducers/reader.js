@@ -81,7 +81,7 @@ const pages = (state = initialPages, { type, payload }) => {
 
     return map(state, (value) => (
       value.index === payload.index
-        ? { ...value, loading: false, imageData: payload.imageData }
+        ? { ...value, loading: false }
         : value
     ))
 
@@ -112,8 +112,6 @@ const exampleState = {
     {
       index: 0,
       imageURL: 'https://example.com/image.jpg',
-      imageData: '',  // b64 encoded image?
-      loading: false,
     },
     // ...
   ],

@@ -43,6 +43,5 @@ export const loadPage = ({ index, imageURL }) => (dispatch) => {
     },
   })
 
-  // TODO:  Call some function to fetch the image and give it to us as
-  // b64.
+  // TODO:  Prefetch image.
 }
